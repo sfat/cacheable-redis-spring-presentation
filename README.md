@@ -1,6 +1,6 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Cacheable and Redis Spring presentation
 
-To start the slide show:
+To start the presentation:
 
 - `npm install`
 - `npm run dev`
@@ -8,4 +8,3 @@ To start the slide show:
 
 Edit the [slides.md](./slides.md) to see the changes.
 
-Learn more about Slidev on [documentations](https://sli.dev/).
