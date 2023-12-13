@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  presentation:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: presentation
+    restart: always
+    ports:
+      - "80:80"
