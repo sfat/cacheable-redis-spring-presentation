@@ -68,7 +68,7 @@ Evict cache
 ```java
 @CacheEvict(value = "users-cache", key = "#id")
 public User deleteUser(String id) {
-  return userRepository.findAll();
+  return userRepository.deleteById(id);
 }
 ```
 
